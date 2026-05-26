@@ -867,9 +867,9 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
           <div style={{ position: "relative", borderRadius: 2, overflow: "hidden", border: `1px solid rgba(79,209,197,0.15)`, background: C.dark }}>
             <div style={{ position: "relative", paddingTop: "56.25%" }}>
               <iframe
-                src="https://www.youtube-nocookie.com/embed/_rMvCmK4XiA?rel=0&modestbranding=1"
+                src="https://player.vimeo.com/video/1195698872?h=89d35ed01a&title=0&byline=0&portrait=0"
                 title="Preachers & Pros — EP. 01 — Against the Grain"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
                 allowFullScreen
                 style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0, background: "#000" }}
               />
