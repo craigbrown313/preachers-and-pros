@@ -854,13 +854,13 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
             <div className="section-label">The Kickoff Episode</div>
             <div className="teal-divider"/>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 12, flexWrap: "wrap", gap: 16 }}>
-              <h2 className="bebas" style={{ fontSize: "clamp(42px,7vw,80px)", lineHeight: 1, color: C.white }}>EP. 01 — PRESSURE</h2>
+              <h2 className="bebas" style={{ fontSize: "clamp(42px,7vw,80px)", lineHeight: 1, color: C.white }}>EP. 01 — AGAINST THE GRAIN</h2>
               <span style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 12, color: C.gray, letterSpacing: "0.12em", textTransform: "uppercase" }}>
-                <ClockIcon/> 28 min · Coach D. Reeves
+                <ClockIcon/> Lucas Ramirez · Seth Carrol
               </span>
             </div>
             <p style={{ maxWidth: 720, fontSize: 15, color: C.gray, lineHeight: 1.7, marginBottom: 32 }}>
-              The premiere conversation. We sit down on the 18th fairway and explore what happens to identity when the stakes are at their highest — a raw, unfiltered dialogue about performance anxiety, parental pressure, and learning to compete from a place of peace.
+              The premiere conversation. Preacher <strong style={{ color: C.white, fontWeight: 500 }}>Lucas Ramirez</strong> and pro <strong style={{ color: C.white, fontWeight: 500 }}>Seth Carrol</strong> sit down on the fairway to talk family, the quiet pull of a dad with too much screen time, and what it actually looks like to build Bible literacy — working through Acts and the Epistles together. A first round that goes against the grain of how these conversations usually start.
             </p>
           </div>
 
