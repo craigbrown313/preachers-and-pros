@@ -866,17 +866,13 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
 
           <div style={{ position: "relative", borderRadius: 2, overflow: "hidden", border: `1px solid rgba(79,209,197,0.15)`, background: C.dark }}>
             <div style={{ position: "relative", paddingTop: "56.25%" }}>
-              <video
-                controls
-                playsInline
-                preload="metadata"
-                poster="/episode-01-poster.jpg"
-                style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", background: "#000" }}
-              >
-                <source src="/episode-01.mp4" type="video/mp4" />
-                <source src="/episode-01.webm" type="video/webm" />
-                Your browser doesn't support embedded video. <a href="/episode-01.mp4" style={{ color: C.teal }}>Download the episode</a>.
-              </video>
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/_rMvCmK4XiA?rel=0&modestbranding=1"
+                title="Preachers & Pros — EP. 01 — Against the Grain"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0, background: "#000" }}
+              />
             </div>
           </div>
         </div>
